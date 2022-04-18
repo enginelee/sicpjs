@@ -32,9 +32,9 @@ console.log('head(x)=', head(x)) // 會印出 1 ....
 // head(x) = head(pair(1,2)) = head(m=>m(1,2)) = ... 打結了 ...
 
 ```
-head(x) 
-= head(pair(1,2)) 
-= head(m=>m(1,2)) 
-= (m=>m(1,2))((p, q) => p)
-= ((p, q) => p)(1,2)
+head(x) \
+= head(pair(1,2)) \
+= head(m=>m(1,2)) \
+= (m=>m(1,2))((p, q) => p) \
+= ((p, q) => p)(1,2) \
 = 1
